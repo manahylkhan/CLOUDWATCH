@@ -243,6 +243,6 @@ Interactive API docs: **http://localhost:8001/docs**
 
 ## Built By
 
-**Manahil Khan** — Cloud Security Portfolio Project (FYP + SaaS)
+**Manahil Khan** — Cloud Security Portfolio Project (SaaS)
 
 > Part of a complete cybersecurity portfolio: GRC ✓ | VANTAGE (Pentest) ✓ | SENTINEL (Blue Team) ✓ | CLOUDWATCH (Cloud) ✓

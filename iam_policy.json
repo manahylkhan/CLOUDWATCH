@@ -1,0 +1,27 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "CloudWatchReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "s3:List*",
+        "s3:GetBucket*",
+        "ec2:Describe*",
+        "rds:Describe*",
+        "iam:List*",
+        "iam:Get*",
+        "iam:GenerateCredentialReport",
+        "lambda:List*",
+        "lambda:Get*",
+        "cloudtrail:Describe*",
+        "cloudtrail:GetTrailStatus",
+        "logs:Describe*",
+        "cloudwatch:DescribeAlarms",
+        "config:Describe*",
+        "sts:GetCallerIdentity"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
